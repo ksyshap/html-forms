@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<body>
+    <form action="index.html" method="POST">
+       <p><input type="checkbox" name="1"  value="1 metka"> Это метка для чекбокса: нажми на меня - чекбокс сменит галочку!</p>
+        <p><input type="checkbox" name="2" checked="checked" value="2 метка">Я отмечен по умолчанию!</p>
+        <p><input type="checkbox" name="3" disabled="disabled" value="3 метка">Я disabled!</p>
+        <div>
+        <p>Это группа радиоиконок - только одна из них должна быть отмечена</p>
+        <p><input type="radio" name="1" value="1">Это метка для радио</p>
+        <p><input type="radio" name="1" value="2">Это метка для радио</p>
+        </div>
+        <p><button>Отправить на сервер</button></p>
+    </form>
+</body>
+</html>
